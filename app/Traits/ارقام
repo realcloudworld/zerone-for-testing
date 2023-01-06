@@ -1,0 +1,52 @@
+في جدول الترانزاكشن الارقام السالية لنوع المستند تعني أن المستند لايوجد وإنما هو عملية داخل الجدول 
+document_type_id< 0 
+
+
+
+
+الفواتير 
+
+
+documents (document_type_id)
+1- purchase bill
+2- invoice bill
+3- purchase_return  bill
+4- invoice_return bill
+
+5- supplier receipt    
+6- customer receipt
+
+
+30 - جرد
+
+-100   مورد رصيد افتتاحي
+-101  عميل رصيد افتتاحي
+
+
+
+
+
+
+الحالات 
+payments status
+
+
+1- غير مدفوعة - not paid
+2- مدفوعة جزئيا - partially paid
+3- مدفوعة كاملة - fully paid
+
+
+السندات 
+payment_type_id 
+1- صرف 
+2- قبض- 
+
+
+انواع الاشخاص
+
+supplier - 1
+customer - 2
+employee - 3
+user - 4
+
+

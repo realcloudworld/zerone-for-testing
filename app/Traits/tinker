@@ -1,0 +1,5 @@
+App\Modules\Admin\Accounts\Models\Transaction::truncate()
+App\Modules\Admin\Bills\Models\Bill::truncate()
+App\Modules\Admin\Receipts\Models\Receipt::truncate()
+App\Modules\Admin\Bills\Models\BillDetail::truncate()
+App\Modules\Admin\Products\Models\Product::query()->update(['average_cost'=>0, 'quantity_in_minor_unit'=>0])

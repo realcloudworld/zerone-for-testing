@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "dkl";
+    src: url('./fonts/cairo/Cairo-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nib {
+    font-size: 200px;
+    font-family: dkl;
+}
